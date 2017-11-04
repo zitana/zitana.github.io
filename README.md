@@ -1,3 +1,3 @@
 # zitana.github.io
 [link to repository](https://github.com/zitana/zitana.github.io)
-This is Anakin's CV
+This is my CV
