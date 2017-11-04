@@ -2,11 +2,11 @@ body {
   margin: 0;
 }
 header {
-  background: url(anakin.png);
+  background: url(zita.jpg);
   background-size: cover;
-  height: 450px;
+  height: 500px;
   margin: 0 30px;
-  border-top: 5px solid #000;
+  /*border-top: 5px solid #000;*/
 }
 
 article{
@@ -18,12 +18,12 @@ article{
 }
 
 h1 {
-  color:  #222;
+  color:  #fff;
   font-family: 'Abril Fatface', cursive;
   font-size: 36px;
   font-weight: lighter;
   position: absolute;
-  top: 250px;
+  top: 300px;
 }
 
 span {
