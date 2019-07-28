@@ -2,14 +2,31 @@ body {
   margin: 0;
 }
 header {
-  background: url(zita.jpg);
+  background: url(jungle.jpg);
   background-size: cover;
   height: 500px;
   margin: 0 30px;
-  /*border-top: 5px solid #000;*/
 }
 
-article{
+.profile {
+  width: 200px;
+  height: 200px;
+  background-image: url(zita.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  position: absolute;
+  left: 50%;
+  margin-top: 150px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: white;
+}
+
+article {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
@@ -42,29 +59,6 @@ h3 {
 li {
   list-style: square;
   line-height: 1.5;
-}
-
-blockquote {
-  background: #444;
-  font-size: 48px;
-  font-family: 'Abril Fatface', cursive;
-  color: #fff;
-  width: 750px;
-  padding: 10px 10px 10px 60px;
-  margin: 50px 0 0 -50px;
-  position: relative;
-}
-
-blockquote p {display:inline-block;}
-
-blockquote p::before {
-  content: "\201C";
-  font-size: 3em;
-  float: left;
-  color: #fff;
-  position: absolute;
-  top:  -30px;
-  left: 0;
 }
 
 .training h3,
