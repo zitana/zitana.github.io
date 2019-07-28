@@ -1,12 +1,6 @@
 body {
   margin: 0;
 }
-header {
-  background: url(jungle.jpg);
-  background-size: cover;
-  height: 500px;
-  margin: 0 30px;
-}
 
 .profile {
   width: 200px;
@@ -18,8 +12,9 @@ header {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   position: absolute;
-  left: 50%;
-  margin-top: 150px;
+  float:right;
+  margin-top: 20px;
+  margin-left: 20px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border: 1px solid #ddd;
   padding: 5px;
@@ -32,15 +27,14 @@ article {
   max-width: 700px;
   font-family: 'Josefin Sans', sans-serif;
   color: #222;
+  width: 100%;
 }
 
 h1 {
-  color:  #fff;
+  color:  #444;
   font-family: 'Abril Fatface', cursive;
   font-size: 36px;
   font-weight: lighter;
-  position: absolute;
-  top: 300px;
 }
 
 span {
@@ -49,7 +43,7 @@ span {
 
 h2 {
   text-transform: uppercase;
-  margin: 60px 0;
+  margin: 30px 0;
 }
 
 h3 {
@@ -80,12 +74,18 @@ h5 {
 
 .introduction {
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 20px;
+}
+
+.introduction li{
+  font-size: 18px;
 }
 
 .social img {
     max-width: 10%;
     height: auto;
+    position: absolute;
+    bottom: 10px;
 }
 
 .social .item {
@@ -97,9 +97,34 @@ h5 {
     padding: 3px;
 }
 
-hr {
-  width: 110%;
-  left: -5%;
-  position: relative;
-  border-top: 3px solid;
+.right-side {
+  position: absolute;
+  right: 0px;
+  width: 60%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border: 1px solid #ddd;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.left-side {
+  background-image: url(jungle.jpg);
+  background-size: cover;
+  display: block;
+  background-color: #444;
+  position: absolute;
+  left: 0px;
+  width: 40%;
+}
+
+.core-skills {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 10px;
+}
+
+.personal-info {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 10px;
 }
